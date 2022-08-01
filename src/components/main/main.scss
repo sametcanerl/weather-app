@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    padding: 0 0 30px 0;
+    text-align: center;
+  }
+  .form-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      border: none;
+      background: none;
+      outline: none;
+      font-size: 2rem;
+      height: 40px;
+      padding: 5px 5px 10px;
+      border-bottom: 1px solid;
+    }
+    button{
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        padding: 15px 20px;
+        margin-left: 15px;
+        border-radius: 5px;
+        background: rgb(202, 146, 146);
+        transition: background 0.3s ease-in-out;
+    }
+  }
+}
